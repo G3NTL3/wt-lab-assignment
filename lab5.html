@@ -5,29 +5,94 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lab 5</title>
-    <link rel="stylesheet" href="style.css">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fromcss.css">
 </head>
 <body>
-
-    <div class="main">
-        <h1>This is Lab-5</h1>
-        <p>Work in progress</p>
-    </div>
+    <!DOCTYPE html>
+    <html lang="en">
     
-    <div class="btc">
-        <a href="lab4.html" class="btnn btn">&#8592; Lab 4</a>
-    </div>
-
-    <footer class="foot">
-        <div id="fcont">
-            <a href="https://c.tenor.com/QkVmQtskoaQAAAAC/dancing-boy-cowboy.gif" target="_blank">
-                <img src="bruh.png" alt="bruh button" id="bruh">
-            </a>
-        </div>
-    </footer>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>form</title>
+        <link rel="stylesheet" href="fromcss.css">
+    </head>
+    
+    <body>
+        <div class="contct-section">
+            <div class="contact-form">
+                <h1>This is lab-5</h1>
+                <p>HTML Feedback Form</p>
+                <form class="contact" method="POST">
+                    <input id="fname" type="text" name="name" class="text-box" placeholder="First Name" required>
+                    <input id="lname" type="text" name="name" class="text-box" placeholder="Last Name" required>
+                    <input id="enroll" type="text" name="name" class="text-box" placeholder="Enrollment No" required>
+                    <input id="email" type="email" name="email" class="text-box" placeholder="Your Email" required>
+                    <select itemid="gender" name="gender" id="gender" class="text-box">
+                        <option value="-">--Gender--</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Prefer not to say</option>
+                    </select>
+                    <select itemid="state" name="state" id="state" class="text-box">
+                        <option value="N/A">--State--</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PY">Puducherry</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+                    <textarea id="msg" name="message" rows="5" placeholder="Your Feedback" required></textarea>
+                    <div class="btncont">
+                        <input type="submit" name="submit" class="send-btn" onclick="display_alert()" value="Submit">
+                    </div>
+                </form>
+                <div class="btc">
+                    <a href="lab4.html" class="btnn btn">&#8592; Lab 4</a>
+                    <a href="index.html" class="btnn btn">Index</a>
+                </div>
+            </div>
+            <footer>
+                <div class="rick">
+                    <a id="rr" href="https://youtu.be/dQw4w9WgXcQ">want a rick roll??</a>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+    </body>
+    
+    </html>
 </body>
 </html>

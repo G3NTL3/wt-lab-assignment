@@ -1,7 +1,10 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 body{
     background-image: url(image.jpg);
     background-repeat: no-repeat;
-    font-family: 'Poppins', sans-serif;
     margin: 0px;
     height: fit-content;
 }
@@ -87,3 +90,4 @@ p{
     margin: auto;
     width: fit-content;
 }
+
