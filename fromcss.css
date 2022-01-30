@@ -11,7 +11,8 @@ body{
 	overflow: hidden;
 	/* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 	background-image:url(image.jpg);
-	background-size: cover;	
+	background-repeat: no-repeat;
+	/* background-size: 1;	 */
 }
 
 .contact-section{
